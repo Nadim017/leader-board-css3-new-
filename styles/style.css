@@ -130,7 +130,7 @@ hr {
 }
 
 /* for mobile devices */
-@media only screen and (max-width: 688px) {
+@media screen and (max-width: 688px) {
   .container {
     width: 100%;
     padding: 0;
@@ -166,7 +166,9 @@ hr {
     padding: 0;
   }
 }
-@media screen and (min-width: 689px) and (max-width: 992px) {
+@media screen (min-width: 689px) and (max-width: 992px) {
+}
+ {
   .container {
     width: 100%;
   }
@@ -177,6 +179,7 @@ hr {
     flex-direction: column;
     align-items: center;
   }
+
   .player {
     justify-content: center;
   }
