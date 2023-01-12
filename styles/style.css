@@ -168,19 +168,18 @@ hr {
 }
 @media screen (min-width: 689px) and (max-width: 992px) {
 }
- {
-  .container {
-    width: 100%;
-  }
-  .blogs {
-    padding: 10px;
-  }
-  .blog {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .player {
-    justify-content: center;
-  }
+.container {
+  width: 100%;
+}
+.blogs {
+  padding: 10px;
+}
+.blog {
+  flex-direction: column;
+  align-items: center;
+}
+
+.player {
+  justify-content: center;
 }
